@@ -15,3 +15,26 @@ console.log(totalPreco);
 var sobrenome = 'Mendes', 
 cidade = 'Pernambuco';
 console.log(sobrenome, cidade);
+
+/* quando você somente declara a variável ela fica undefined*/
+var valorIndefinido
+console.log(valorIndefinido)
+
+
+
+/* Como definir variáveis? 
+OS nome podem iniciar com: $, _ , ou letras
+pode conter números porém não se deve iniciar com eles
+
+Case Sensitive
+nome é diferente de Nome!
+
+
+Não utilizar palavras reservadas
+Javascript Reserved Words
+
+
+Camel case
+É normal nomear assim: abrirModal
+
+*/
