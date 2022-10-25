@@ -3,8 +3,6 @@ inicia com a palavra var, let ou const
 */
 
 var nome = 'Rawdney'
-console.log(nome);
 let idade = 28
-console.log(idade);
 const possuiFaculdade = true;
-console.log(possuiFaculdade);
+console.log(`Meu nome é ${nome}, Minha idade: ${idade}, possuo faculdade? ${possuiFaculdade}`);
