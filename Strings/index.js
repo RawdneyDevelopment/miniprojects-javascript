@@ -17,7 +17,7 @@ var ano = '2018'
 var mes = 08 
 console.log(ano + mes)
 
-/*  aqui ele irá realizar a soma normalmente, porque ambos são números!*/
+/* aqui ele irá realizar a soma normalmente, porque ambos são números!*/
 var ano2 = 2018
 var mes2 = 9
 console.log(ano2 + mes2)
