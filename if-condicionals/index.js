@@ -33,4 +33,7 @@ if(0) // ou -0
 if(NaN)
 if(null)
 if(undefined)
-if('')
+if('') /* ou "" ou `` */
+
+
+/* todo resto é truthy */
