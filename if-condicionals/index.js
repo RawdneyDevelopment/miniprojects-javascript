@@ -21,3 +21,4 @@ else if (possuiDoutorado) {
 else {
     console.log('Não possui nada');
 }
+/* Sempre em condicionais ele verifica se é boolean, então sempre é uma verificação entre True e false*/
