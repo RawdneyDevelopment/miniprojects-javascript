@@ -25,3 +25,10 @@ function areaQuadradoMultiplicar(lado){
     return lado * lado
 }
 console.log(areaQuadradoMultiplicar(4))
+
+/*  também dá pra utilizar a função e executar ela simultaneo.*/
+function pi(){
+    return 3.14;
+}
+const total = 5 * pi(); //15.7
+console.log(total);
