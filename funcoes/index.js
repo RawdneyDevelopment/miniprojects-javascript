@@ -32,3 +32,10 @@ function pi(){
 }
 const total = 5 * pi(); //15.7
 console.log(total);
+
+/* função de calcular peso IMC */
+function imc(peso, altura) => { 
+    const imc = peso/ (altura * altura);
+    return imc
+}
+console.log(imc(80, 1.80));
