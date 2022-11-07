@@ -45,3 +45,15 @@ console.log(imc(80, 1.80));
 
 /* Separar por vírgula cada parâmetro.
 você pode definir mais de um parâmetro ou nenhum também.*/
+
+
+function corFavorita(cor){
+    if(cor === 'azul'){
+        return "Você gosta do céu"
+    }else if(cor === 'verde'){
+        return 'Você gosta de mato'
+    } else {
+        return 'Você não gosta é de porra nenhuma!'
+    }
+}
+corFavorita() /* sem valor ele irá retornar: "você não gosta de porra nenuma"*/
