@@ -24,4 +24,13 @@ function terceiraIdade(idade) {
   console.log(idade);
 }
 
-console.log(terceiraIdade(60))
+console.log(terceiraIdade(60));
+
+/* escopo 
+Variáveis e funções definidas dentro de um bloco {}, não são visíveis fora dele. 
+*/
+function precisoVisitar(paisesVisitados){
+    var totalPaises = 193
+    return `ainda faltam ${totalPaises - paisesVisitados} países visitados`
+}
+console.log(totalPaises); /* Erro de escopo, a variável só vai pegar dentro das chaves, então se deve por fora.*/
