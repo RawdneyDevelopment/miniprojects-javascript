@@ -12,3 +12,8 @@ function nomeCompleto(nome, sobrenome){
   return nome +  ' ' +sobrenome
 }
 
+/*Crie uma função que verifica se um número é par*/
+function isEven(numero){
+  return numero / 2;
+}
+
